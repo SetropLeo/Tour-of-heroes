@@ -1,0 +1,18 @@
+<button type="button" (click)="goBack()">
+  < Go Back </button>
+<div class="selectedHero-main-container">
+  <div class="selectedHero-container" *ngIf="hero">
+    <h2 class="selectedHero-details">
+      Selected Hero Details
+    </h2>
+    <div class="selectedHero-infos">
+      <h4> <span>Name: </span> {{ hero.name | uppercase }}</h4>
+      <h4> <span>id: </span> {{ hero.id }}</h4>
+    </div>
+    <img class="selectedHero-image" src="{{ hero.image }}" alt="" />
+    <div class="selectedHero-name-change">
+      <label for="hero-name">Change name:</label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="name" />
+    </div>
+  </div>
+</div>

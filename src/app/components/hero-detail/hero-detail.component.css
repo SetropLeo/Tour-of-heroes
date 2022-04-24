@@ -1,0 +1,62 @@
+button {
+  margin-top: 20px;
+  background-color: #eee;
+  padding: .25rem;
+  border-radius: 4px;
+  font-size: .75rem;
+}
+
+button:hover {
+  background-color: #cfd8dc;
+  cursor: pointer;
+}
+
+.selectedHero-main-container {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+
+.selectedHero-container {
+  min-width: 350px;
+  float: left;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-bottom: 25px;
+  margin-top: 40px;
+}
+
+.selectedHero-infos h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.selectedHero-infos h4 span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.selectedHero-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  border: 3px solid #eee;
+}
+
+.selectedHero-name-change {
+  margin-top: 20px;
+}
+
+.selectedHero-name-change label {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.selectedHero-name-change input {
+  background-color: #eee;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
